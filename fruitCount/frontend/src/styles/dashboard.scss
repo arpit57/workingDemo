@@ -1,0 +1,68 @@
+// Mixins
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Styles
+.dashboard {
+  padding: 15px 0;
+  overflow: visible;
+
+  * {
+    overflow: visible !important;
+  }
+}
+
+.dashboard-empty,
+.loading {
+  @include flex();
+  justify-content: center;
+  height: 100%;
+}
+
+.dashboard-empty h2 {
+  overflow: hidden;
+}
+
+.dashboard-row {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.chart,
+.activity {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 2px 50px 10px rgba(0, 0, 0, 0.05);
+  min-height: 400px;
+}
+
+.activity {
+  @include flex();
+
+  h2 {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+}
+
+.apexcharts-menu-icon,
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+/* Donut chart labels */
+.apexcharts-legend.apexcharts-align-center.apx-legend-position-right {
+  top: 40px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .dashboard {
+    padding: 0;
+  }
+  .dashboard-col {
+    margin-bottom: 40px;
+  }
+}

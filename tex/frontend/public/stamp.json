@@ -1,0 +1,14 @@
+[
+  { "hour_range": "07:00-08:00", "count": 1 },
+  { "hour_range": "08:00-09:00", "count": 2 },
+  { "hour_range": "09:00-10:00", "count": 3 },
+  { "hour_range": "10:00-11:00", "count": 4 },
+  { "hour_range": "11:00-12:00", "count": 5 },
+  { "hour_range": "12:00-13:00", "count": 6 },
+  { "hour_range": "13:00-14:00", "count": 7 },
+  { "hour_range": "14:00-15:00", "count": 8 },
+  { "hour_range": "15:00-16:00", "count": 9 },
+  { "hour_range": "16:00-17:00", "count": 10 },
+  { "hour_range": "17:00-18:00", "count": 11 },
+  { "hour_range": "18:00-19:00", "count": 12 }
+]

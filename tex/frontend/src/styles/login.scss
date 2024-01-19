@@ -1,0 +1,75 @@
+.login-container {
+  height: 100vh;
+}
+
+.login-row {
+  height: 100%;
+}
+
+.login-left-col {
+  background-image: url("../assets/images/LeftPage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p,
+  span {
+    font-weight: 900;
+  }
+
+  span {
+    color: red;
+  }
+}
+
+.login-right-col {
+  background-image: url("../assets/images/RightPage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-left-col-inner-container {
+  transform: translateY(-150px);
+}
+
+.login-right-col-inner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container input {
+  background-color: #fff !important;
+}
+
+.login-container button {
+  background-color: #58595b !important;
+  margin-top: 10px !important;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .login-right-col {
+    background-image: url("../assets/images/LeftPage.jpg");
+  }
+  .login-conditional-container {
+    transform: translateY(0);
+    img {
+      width: 100%;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}

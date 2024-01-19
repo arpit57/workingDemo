@@ -1,0 +1,46 @@
+.upload-sop {
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    background-color: #fff;
+    padding: 80px 20px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 100px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .file-input-label {
+    cursor: pointer;
+  }
+
+  .label-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    display: none;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background-color: #bf3c3b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}

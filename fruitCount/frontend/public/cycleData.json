@@ -1,0 +1,356 @@
+{
+  "source_id": 0,
+  "date": "2023-08-02",
+  "cycle_times": [
+    {
+      "start_time": "11:37:14",
+      "end_time": "17:37:21",
+      "cycle_time": 7
+    },
+    {
+      "start_time": "11:37:21",
+      "end_time": "17:37:23",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "12:37:23",
+      "end_time": "17:37:26",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "12:37:26",
+      "end_time": "17:37:29",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "13:37:29",
+      "end_time": "17:37:32",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "13:37:32",
+      "end_time": "17:37:35",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "14:37:35",
+      "end_time": "17:37:37",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "14:37:37",
+      "end_time": "17:37:40",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "15:37:40",
+      "end_time": "17:37:43",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "15:37:43",
+      "end_time": "17:37:46",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "16:37:46",
+      "end_time": "17:37:50",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "16:37:50",
+      "end_time": "17:37:53",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:37:53",
+      "end_time": "17:37:55",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:37:55",
+      "end_time": "17:37:59",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:37:59",
+      "end_time": "17:38:02",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:38:02",
+      "end_time": "17:38:05",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:38:05",
+      "end_time": "17:38:09",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:38:09",
+      "end_time": "17:38:13",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:38:13",
+      "end_time": "17:38:26",
+      "cycle_time": 13
+    },
+    {
+      "start_time": "17:38:26",
+      "end_time": "17:38:29",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:38:29",
+      "end_time": "17:38:33",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:38:33",
+      "end_time": "17:38:36",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:38:37",
+      "end_time": "17:38:39",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:38:40",
+      "end_time": "17:38:44",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:38:44",
+      "end_time": "17:38:47",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:38:48",
+      "end_time": "17:38:51",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:38:51",
+      "end_time": "17:38:55",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:38:55",
+      "end_time": "17:39:00",
+      "cycle_time": 5
+    },
+    {
+      "start_time": "17:39:00",
+      "end_time": "17:39:04",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:39:04",
+      "end_time": "17:39:08",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:39:08",
+      "end_time": "17:39:19",
+      "cycle_time": 11
+    },
+    {
+      "start_time": "17:39:19",
+      "end_time": "17:39:21",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:39:22",
+      "end_time": "17:39:26",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:39:26",
+      "end_time": "17:39:29",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:39:29",
+      "end_time": "17:39:31",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:39:48",
+      "end_time": "17:40:21",
+      "cycle_time": 33
+    },
+    {
+      "start_time": "17:40:24",
+      "end_time": "17:40:27",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:40:28",
+      "end_time": "17:40:30",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:40:31",
+      "end_time": "17:40:33",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:40:33",
+      "end_time": "17:40:37",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:40:37",
+      "end_time": "17:40:42",
+      "cycle_time": 5
+    },
+    {
+      "start_time": "17:40:45",
+      "end_time": "17:40:50",
+      "cycle_time": 5
+    },
+    {
+      "start_time": "17:40:51",
+      "end_time": "17:40:55",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:40:58",
+      "end_time": "17:41:00",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:41:01",
+      "end_time": "17:41:05",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:41:06",
+      "end_time": "17:41:10",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:41:11",
+      "end_time": "17:41:15",
+      "cycle_time": 4
+    },
+    {
+      "start_time": "17:41:15",
+      "end_time": "17:41:17",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:41:17",
+      "end_time": "17:41:19",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:41:22",
+      "end_time": "17:41:59",
+      "cycle_time": 37
+    },
+    {
+      "start_time": "17:42:00",
+      "end_time": "17:42:17",
+      "cycle_time": 17
+    },
+    {
+      "start_time": "17:42:18",
+      "end_time": "17:42:41",
+      "cycle_time": 23
+    },
+    {
+      "start_time": "17:42:41",
+      "end_time": "17:42:58",
+      "cycle_time": 17
+    },
+    {
+      "start_time": "17:42:58",
+      "end_time": "17:43:06",
+      "cycle_time": 8
+    },
+    {
+      "start_time": "17:43:06",
+      "end_time": "17:43:18",
+      "cycle_time": 12
+    },
+    {
+      "start_time": "17:43:18",
+      "end_time": "17:43:25",
+      "cycle_time": 7
+    },
+    {
+      "start_time": "17:43:25",
+      "end_time": "17:43:26",
+      "cycle_time": 1
+    },
+    {
+      "start_time": "17:43:29",
+      "end_time": "17:43:34",
+      "cycle_time": 5
+    },
+    {
+      "start_time": "17:43:34",
+      "end_time": "17:43:42",
+      "cycle_time": 8
+    },
+    {
+      "start_time": "17:43:44",
+      "end_time": "17:43:46",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:43:46",
+      "end_time": "17:43:48",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:43:50",
+      "end_time": "17:43:51",
+      "cycle_time": 1
+    },
+    {
+      "start_time": "17:43:54",
+      "end_time": "17:44:21",
+      "cycle_time": 27
+    },
+    {
+      "start_time": "17:44:21",
+      "end_time": "17:44:24",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:44:24",
+      "end_time": "17:44:29",
+      "cycle_time": 5
+    },
+    {
+      "start_time": "17:44:29",
+      "end_time": "17:44:31",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:44:33",
+      "end_time": "17:44:35",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:44:36",
+      "end_time": "17:44:39",
+      "cycle_time": 3
+    },
+    {
+      "start_time": "17:44:40",
+      "end_time": "17:44:42",
+      "cycle_time": 2
+    },
+    {
+      "start_time": "17:44:43",
+      "end_time": "17:44:46",
+      "cycle_time": 3
+    }
+  ]
+}

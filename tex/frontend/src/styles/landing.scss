@@ -1,0 +1,91 @@
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing {
+  height: 100vh;
+  @include flex();
+  background-color: rgb(249, 250, 251);
+  padding: 0;
+
+  flex: 1;
+  overflow: visible;
+
+  .row {
+    overflow: visible;
+    height: 100%;
+  }
+
+  .login-left-col,
+  .login-right-col {
+    @include flex();
+    justify-content: center;
+    height: 100%;
+    overflow: visible;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  .login-left-col {
+    background-image: url("../assets/images/login/LeftPage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .login-left-col-inner-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-100px);
+
+      p {
+        font-weight: 700;
+        text-align: center;
+      }
+      span {
+        color: #d61921;
+      }
+    }
+  }
+
+  .login-right-col {
+    background-image: url("../assets//images/login/RightPage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .login-form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .login-form {
+        width: 50%;
+        margin: auto;
+      }
+
+      .login-form-btn {
+        background-color: #e0e0e0;
+        margin-top: 15px;
+      }
+
+      .MuiFormHelperText-root.Mui-error.MuiFormHelperText-sizeSmall.MuiFormHelperText-contained.css-k4qjio-MuiFormHelperText-root {
+        font-size: 14px;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landing-banner p {
+    font-size: 16px;
+  }
+}

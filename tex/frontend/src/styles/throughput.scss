@@ -1,0 +1,40 @@
+/* Transactions */
+.transactions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h2 {
+    overflow: hidden;
+  }
+}
+
+/* Disable table header right border */
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}
+
+/* Disable cell border on cell click */
+.MuiDataGrid-cell:focus-within,
+.MuiDataGrid-columnHeader:focus-within {
+  outline: none !important;
+}
+
+/* Center align table header text */
+.MuiDataGrid-columnHeaderTitleContainer,
+.MuiDataGrid-columnHeaderTitleContainerContent,
+.MuiDataGrid-columnHeaderTitle {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+/* Reduce padding on icon button container */
+.MuiDataGrid-iconButtonContainer {
+  padding-right: 8px !important;
+}
+
+// Hide datagrid pagination
+.MuiDataGrid-footerContainer.css-17jjc08-MuiDataGrid-footerContainer {
+  display: none !important;
+}

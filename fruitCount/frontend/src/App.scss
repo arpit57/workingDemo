@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+// Variables
+$primary-color: #723efe;
+$secondary-color: #349bff;
+$background-color: rgba(249, 250, 251, 0.3);
+
+// Mixins
+@mixin gradient-background {
+  background-image: linear-gradient(
+    90deg,
+    $primary-color,
+    $secondary-color
+  ) !important;
+}
+
+// Styles
+.App {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+/* Table */
+.table {
+  background-color: #fff;
+  border: none;
+}
+
+.autocomplete-container {
+  display: flex;
+  align-items: center;
+
+  h5 {
+    flex: 1;
+  }
+}
+
+.apexcharts-legend-text {
+  display: none !important;
+}
+
+.apexcharts-legend-marker {
+  display: none !important;
+}
+
+.MuiAutocomplete-popper {
+  overflow: hidden !important;
+}
